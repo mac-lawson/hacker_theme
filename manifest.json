@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hacker+",
+  "version": "1.0",
+  "author": "@mac_attack_hacker",
+  "description": "Applies a hacker theme to all sites",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["hacker_theme.css"]
+    }
+  ]
+}
